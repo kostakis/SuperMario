@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\AI_Initialization.cpp" />
+    <ClCompile Include="src\Animation_Flash.cpp" />
+    <ClCompile Include="src\Animation_FrameList.cpp" />
+    <ClCompile Include="src\Animation_FrameRange.cpp" />
+    <ClCompile Include="src\Animation_Moving.cpp" />
+    <ClCompile Include="src\Animation_Scroll.cpp" />
+    <ClCompile Include="src\AnimationFilm.cpp" />
+    <ClCompile Include="src\AnimationFilmHolder.cpp" />
+    <ClCompile Include="src\Animator.cpp" />
+    <ClCompile Include="src\AnimatorManager.cpp" />
+    <ClCompile Include="src\Animators_FrameRange.cpp" />
+    <ClCompile Include="src\Animators_Moving.cpp" />
+    <ClCompile Include="src\BackgroundLayer.cpp" />
+    <ClCompile Include="src\Coin.cpp" />
+    <ClCompile Include="src\CollisionChecker.cpp" />
+    <ClCompile Include="src\DestructionManager.cpp" />
+    <ClCompile Include="src\enemy.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\FlashingAnimator.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\gameobject.cpp" />
+    <ClCompile Include="src\GridMap.cpp" />
+    <ClCompile Include="src\Initialization.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PowerUp.cpp" />
+    <ClCompile Include="src\SoundManager.cpp" />
+    <ClCompile Include="src\SpriteManager.cpp" />
+    <ClCompile Include="src\Sprites.cpp" />
+    <ClCompile Include="src\Starman.cpp" />
+    <ClCompile Include="src\SuperMario.cpp" />
+    <ClCompile Include="src\SystemClock.cpp" />
+    <ClCompile Include="src\TileActions.cpp" />
+    <ClCompile Include="src\TileLayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AI_Initialization.h" />
+    <ClInclude Include="src\Animation.h" />
+    <ClInclude Include="src\Animation_Flash.h" />
+    <ClInclude Include="src\Animation_FrameList.h" />
+    <ClInclude Include="src\Animation_FrameRange.h" />
+    <ClInclude Include="src\Animation_Moving.h" />
+    <ClInclude Include="src\Animation_MovingPath.h" />
+    <ClInclude Include="src\Animation_Scroll.h" />
+    <ClInclude Include="src\AnimationFilm.h" />
+    <ClInclude Include="src\AnimationFilmHolder.h" />
+    <ClInclude Include="src\Animator.h" />
+    <ClInclude Include="src\Animator_Moving.h" />
+    <ClInclude Include="src\AnimatorManager.h" />
+    <ClInclude Include="src\Animators.h" />
+    <ClInclude Include="src\Animators_FrameRange.h" />
+    <ClInclude Include="src\App.h" />
+    <ClInclude Include="src\BackgroundLayer.h" />
+    <ClInclude Include="src\basic_includes.h" />
+    <ClInclude Include="src\Coin.h" />
+    <ClInclude Include="src\CollisionChecker.h" />
+    <ClInclude Include="src\CollisionFunctions.h" />
+    <ClInclude Include="src\DestructionManager.h" />
+    <ClInclude Include="src\enemy.h" />
+    <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\FlashingAnimator.h" />
+    <ClInclude Include="src\FrameRangeAnimator.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\gameobject.h" />
+    <ClInclude Include="src\GridMap.h" />
+    <ClInclude Include="src\Initialization.h" />
+    <ClInclude Include="src\Keys.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\PowerUp.h" />
+    <ClInclude Include="src\ProgressAnimations.h" />
+    <ClInclude Include="src\Rectangle.h" />
+    <ClInclude Include="src\SoundManager.h" />
+    <ClInclude Include="src\SpriteManager.h" />
+    <ClInclude Include="src\Sprites.h" />
+    <ClInclude Include="src\Starman.h" />
+    <ClInclude Include="src\SuperMario.h" />
+    <ClInclude Include="src\SystemClock.h" />
+    <ClInclude Include="src\TileActions.h" />
+    <ClInclude Include="src\TileLayer.h" />
+    <ClInclude Include="src\UserActions.h" />
+    <ClInclude Include="src\ViewData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="media\BackGroundLayer.csv" />
+    <None Include="media\TileLayer.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\super_mario_tiles.png" />
+    <Image Include="..\HY_454_TEST\UnitTests\UnitTest3\Media\Start_image.png" />
+  </ItemGroup>
+</Project>

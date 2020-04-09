@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E58F65B1-7EBF-45D8-B696-4C622955EB1B}</ProjectGuid>
+    <RootNamespace>SuperMario</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <Allegro_LibraryType>DynamicDebug</Allegro_LibraryType>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AI_Initialization.cpp" />
+    <ClCompile Include="src\AnimationFilm.cpp" />
+    <ClCompile Include="src\AnimationFilmHolder.cpp" />
+    <ClCompile Include="src\Animation_Flash.cpp" />
+    <ClCompile Include="src\Animation_FrameList.cpp" />
+    <ClCompile Include="src\Animation_FrameRange.cpp" />
+    <ClCompile Include="src\Animation_Moving.cpp" />
+    <ClCompile Include="src\Animation_Scroll.cpp" />
+    <ClCompile Include="src\Animator.cpp" />
+    <ClCompile Include="src\AnimatorManager.cpp" />
+    <ClCompile Include="src\Animators_FrameRange.cpp" />
+    <ClCompile Include="src\Animators_Moving.cpp" />
+    <ClCompile Include="src\BackgroundLayer.cpp" />
+    <ClCompile Include="src\Coin.cpp" />
+    <ClCompile Include="src\CollisionChecker.cpp" />
+    <ClCompile Include="src\DestructionManager.cpp" />
+    <ClCompile Include="src\enemy.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\FlashingAnimator.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\gameobject.cpp" />
+    <ClCompile Include="src\GridMap.cpp" />
+    <ClCompile Include="src\Initialization.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PowerUp.cpp" />
+    <ClCompile Include="src\SoundManager.cpp" />
+    <ClCompile Include="src\SpriteManager.cpp" />
+    <ClCompile Include="src\Sprites.cpp" />
+    <ClCompile Include="src\Starman.cpp" />
+    <ClCompile Include="src\SuperMario.cpp" />
+    <ClCompile Include="src\SystemClock.cpp" />
+    <ClCompile Include="src\TileActions.cpp" />
+    <ClCompile Include="src\TileLayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AI_Initialization.h" />
+    <ClInclude Include="src\Animation.h" />
+    <ClInclude Include="src\AnimationFilm.h" />
+    <ClInclude Include="src\AnimationFilmHolder.h" />
+    <ClInclude Include="src\Animation_Flash.h" />
+    <ClInclude Include="src\Animation_FrameList.h" />
+    <ClInclude Include="src\Animation_FrameRange.h" />
+    <ClInclude Include="src\Animation_Moving.h" />
+    <ClInclude Include="src\Animation_MovingPath.h" />
+    <ClInclude Include="src\Animation_Scroll.h" />
+    <ClInclude Include="src\Animator.h" />
+    <ClInclude Include="src\AnimatorManager.h" />
+    <ClInclude Include="src\Animators.h" />
+    <ClInclude Include="src\Animators_FrameRange.h" />
+    <ClInclude Include="src\Animator_Moving.h" />
+    <ClInclude Include="src\App.h" />
+    <ClInclude Include="src\BackgroundLayer.h" />
+    <ClInclude Include="src\basic_includes.h" />
+    <ClInclude Include="src\Coin.h" />
+    <ClInclude Include="src\CollisionChecker.h" />
+    <ClInclude Include="src\CollisionFunctions.h" />
+    <ClInclude Include="src\DestructionManager.h" />
+    <ClInclude Include="src\enemy.h" />
+    <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\FlashingAnimator.h" />
+    <ClInclude Include="src\FrameRangeAnimator.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\gameobject.h" />
+    <ClInclude Include="src\GridMap.h" />
+    <ClInclude Include="src\Initialization.h" />
+    <ClInclude Include="src\Keys.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\PowerUp.h" />
+    <ClInclude Include="src\ProgressAnimations.h" />
+    <ClInclude Include="src\Rectangle.h" />
+    <ClInclude Include="src\SoundManager.h" />
+    <ClInclude Include="src\SpriteManager.h" />
+    <ClInclude Include="src\Sprites.h" />
+    <ClInclude Include="src\Starman.h" />
+    <ClInclude Include="src\SuperMario.h" />
+    <ClInclude Include="src\SystemClock.h" />
+    <ClInclude Include="src\TileActions.h" />
+    <ClInclude Include="src\TileLayer.h" />
+    <ClInclude Include="src\UserActions.h" />
+    <ClInclude Include="src\ViewData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="media\BackGroundLayer.csv" />
+    <None Include="media\TileLayer.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\HY_454_TEST\UnitTests\UnitTest3\Media\Start_image.png" />
+    <Image Include="media\super_mario_tiles.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets" Condition="Exists('packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets')" />
+    <Import Project="packages\Allegro.5.2.6\build\native\Allegro.targets" Condition="Exists('packages\Allegro.5.2.6\build\native\Allegro.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\AllegroDeps.1.11.0\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('packages\Allegro.5.2.6\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Allegro.5.2.6\build\native\Allegro.targets'))" />
+  </Target>
+</Project>
